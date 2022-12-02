@@ -32,7 +32,11 @@ Test-Driven Development (TDD) is a methodology in software development that focu
  ### Virtual Environments
  
  #### setting Virtual Enviroments
- 1. python -m venv venv
- 2. venv\Scripts\activate
- 3. pip install packages
- 4. pip list to check all installed
+    python -m venv venv             #create virtual environment folder called venv
+    venv\Scripts\activate           #acitvate virtual environment
+    pip install packages            # install packages whatever you want
+    pip list                        # check packages or libraries are installed correctly from the list
+    ni requirements.txt             # create a file called requirments.txt
+    pip freeze > requirements.txt   # save all packages and libraries lists in your virtual environment to requirements.txt
+    pip install -r requirements.txt # install the packages or libraries from the requirements.txt
+    
